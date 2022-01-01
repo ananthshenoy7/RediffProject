@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-10T13:25:52.616Z",
+        "line": 4,
+        "name": "To test Sign in Page",
+        "description": "",
+        "id": "validate-the-sign-in-page;to-test-sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20459406200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Rediff Landing Page",
+            "match": {
+              "location": "ForgotPassword.user_is_on_rediff_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4258342400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Clicks on Sign in Link",
+            "match": {
+              "location": "ForgotPassword.user_clicks_on_sign_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4012094500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Fogort Password Link",
+            "match": {
+              "location": "ForgotPassword.user_clicks_on_the_fogort_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93780300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Forgot Passowrd page opens",
+            "match": {
+              "location": "ForgotPassword.forgot_passowrd_page_opens()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the Sign in Page",
+    "description": "",
+    "id": "validate-the-sign-in-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/rediff/features/ForgotPassword.feature",
+    "tags": []
+  }
+]
